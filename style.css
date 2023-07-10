@@ -20,7 +20,8 @@ nav{
     font-size: large;
 }
 .bg{
-    background-image: url('asset/image/background.jpg');
+    background-image: url('asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@ nav{
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: rgb(15, 11, 11);
+    color: white;
 }
 span{
     color: red;
@@ -62,3 +63,73 @@ span{
     font-size: large;
     margin-left: 10px;
  }
+ .more-con{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+   
+ }
+ 
+ .author-con img{
+    border-radius: 100px;
+    width: 40%;
+ }
+.author-con{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid red;
+    gap: 5px;
+}
+.wev-dev img{
+    width: 80px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+   
+}
+.wev-dev{
+    width: 150px;
+    height: 180px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+   
+}
+.service-container{
+    height: 100vh;
+    background-image: url('asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.web-con{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.service-list{
+    width: 500px;
+}
+.smith{
+    display: flex;
+}
+.service-list button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    border: none;
+}
+.more-con button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: red;
+    margin-left: 10px;
+    border: none;
+}
